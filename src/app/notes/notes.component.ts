@@ -21,6 +21,7 @@ export class NotesComponent implements OnInit {
   ngOnInit(): void {
     this.getAllNotebooks();
     this.getAllNotes();
+    this.testMethod();
 
   }
 
