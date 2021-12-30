@@ -21,7 +21,7 @@ export class NotesComponent implements OnInit {
   ngOnInit(): void {
     this.getAllNotebooks();
     this.getAllNotes();
-    this.testMethod();
+    
 
   }
 
@@ -103,7 +103,7 @@ export class NotesComponent implements OnInit {
   }
 
 
-  testMethod() {
+  /*testMethod() {
 
     this.apiService.getTest().subscribe(
 
@@ -115,7 +115,8 @@ export class NotesComponent implements OnInit {
         alert("test didnt work");
       })
 
-  }
+  }*/
+
   getAllNotes(){
 
     this.apiService.getAllNotes().subscribe(
