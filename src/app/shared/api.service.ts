@@ -8,7 +8,7 @@ import {Note} from "../notes/model/Note";
   providedIn: 'root'
 })
 export class ApiService {
-  private BASE_URL="https://younotes-api.herokuapp.com"
+  private BASE_URL="https://younotes-app.herokuapp.com"
   private All_URL=`${this.BASE_URL}\\notebooks\\all`
   private CREATE_UPDATE_NOTEBOOK_URL=`${this.BASE_URL}\\notebooks\\save`;
   private DELETE_NOTEBOOK_URL=`${this.BASE_URL}\\notebooks\\delete\\`
