@@ -101,6 +101,20 @@ export class NotesComponent implements OnInit {
 
   }
 
+
+  testMethod() {
+
+    this.apiService.getTest().subscribe(
+
+      res=>{
+        alert(res);
+
+      },
+      error => {
+        alert("test didnt work");
+      })
+
+  }
   getAllNotes(){
 
     this.apiService.getAllNotes().subscribe(
